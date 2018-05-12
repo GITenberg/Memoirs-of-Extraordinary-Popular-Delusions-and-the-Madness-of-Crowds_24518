@@ -1,0 +1,51 @@
+_repo: Memoirs-of-Extraordinary-Popular-Delusions-and-the-Madness-of-Crowds_24518
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Mackay, Charles
+    alias: Mackay, Chas. (Charles)
+    birthdate: 1814
+    deathdate: 1889
+    gutenberg_agent_id: '516'
+    url: http://www.gutenberg.org/2009/agents/516
+    wikipedia: http://en.wikipedia.org/wiki/Charles_Mackay
+description: 'Extraordinary Popular Delusions and the Madness of Crowds is a history
+  of popular folly by Charles Mackay. The book chronicles its targets in three parts:
+  ""National Delusions, "" ""Peculiar Follies, "" and ""Philosophical Delusions.""
+  Learn why intelligent people do amazingly stupid things when caught up in speculative
+  edevorse. The subjects of Mackay''s debunking include alchemy, beards (influence
+  of politics and religion on), witch-hunts, crusades, and duels. Present day writers
+  on economics, such as Andrew Tobias, laud the three chapters on economic bubbles.'
+gutenberg_bookshelf:
+- Psychology
+- Witchcraft
+gutenberg_issued: '2008-02-05'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '24518'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Investments -- Psychological aspects'
+- !lcc 'AZ'
+- !lcsh 'Stock exchanges -- Psychological aspects'
+- !lcsh 'Alchemy'
+- !lcsh 'Swindlers and swindling'
+- !lcsh 'Occultism -- Early works to 1900'
+- !lcsh 'Common fallacies'
+- !lcsh 'Hallucinations and illusions'
+- !lcsh 'Social psychology'
+- !lcsh 'Impostors and imposture'
+- !lcsh 'Delusions'
+tableOfContents: The Mississippi scheme -- The south-sea bubble -- The tulipomania
+  -- The alchymists -- Modern prophecies -- Fortune-telling -- The magnetisers --
+  Influence of politics and religion on the hair and beard -- The crusades -- The
+  witch mania -- The slow poisoners -- Haunted houses -- Popular follies of great
+  cities -- Popular admiration of great thieves -- Duels and ordeals -- Relics.
+title: Memoirs of Extraordinary Popular Delusions and the Madness of Crowds
+url: http://www.gutenberg.org/ebooks/24518
