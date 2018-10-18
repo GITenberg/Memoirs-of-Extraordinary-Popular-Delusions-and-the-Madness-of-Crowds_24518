@@ -1,353 +1,316 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
   <pgterms:ebook rdf:about="ebooks/24518">
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nc93980e285df4e51baca8bd8c54bb11d">
-        <rdf:value>AZ</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-0.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:26:22</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">753931</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4503e17fe2064e4196a8764ae99c6ced">
+          <rdf:Description rdf:nodeID="Nbd65d7dca92d4c65a26797a4f170cf24">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:45:56.977679</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N08f4d494466f4f2d85f119a2577801bd">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Common fallacies</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-0.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1684966</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:15:16</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N65d825d2c82c4c1abef74ccd3481b4a7">
+          <rdf:Description rdf:nodeID="Ne8c127ebf1ef4cd9865c3d1b6b852ced">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">636667</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:title>Memoirs of Extraordinary Popular Delusions and the Madness of Crowds</dcterms:title>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nd885e4c66f2e4211ad0ea29bc48c73b5">
+      <rdf:Description rdf:nodeID="Nf54ab51fda7e4bbc8ac0ed0d5dea6493">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
         <rdf:value>Stock exchanges -- Psychological aspects</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1445</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2273b7ac80db43d5805b6517a7d884f8">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Hallucinations and illusions</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4374424</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:45:55.555751</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne71f499fee49423b9cd28021f8ce5b2a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-0.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndf3d4ac34a6145458874eaeda2a2230c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">636667</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:26:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N03337a89d9ff49a28dcb8e0972e94fd4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5370978383654d75b271442933cc81f5">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Occultism -- Early works to 1900</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nce5cbff6ca2b4516b2301fc7605c9be0">
+        <rdf:value>Swindlers and swindling</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N867c3101d7cd42cab5ec014df05df98d">
-        <rdf:value>Text</rdf:value>
+      <rdf:Description rdf:nodeID="N7c862dd8e43d4ee2938a1b031e2ce860">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
     </dcterms:type>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc0deae2f7a974758a1352636cf66729f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Investments -- Psychological aspects</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T23:27:17.330597</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">755128</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-h/24518-h.htm">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T10:40:40</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2257879</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2e38f29869df4b179229fe989f3c81f5">
+          <rdf:Description rdf:nodeID="N1849c7a76ee041d2829c708189a25fcd">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:07:32</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1684529</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N17a14d2b25e14a05a80d50d21822ad4c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N2d2e12cfba954f7a9e2fa1224b5a9299">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Delusions</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518.txt">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1684611</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:00:04</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7cf2f9cd5a724a05b61925e6f1a5c4eb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9906208</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc5641b01d74f4f5ba0323e4458acfba7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:46:09.617476</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:tableOfContents>The Mississippi scheme -- The south-sea bubble -- The tulipomania -- The alchymists -- Modern prophecies -- Fortune-telling -- The magnetisers -- Influence of politics and religion on the hair and beard -- The crusades -- The witch mania -- The slow poisoners -- Haunted houses -- Popular follies of great cities -- Popular admiration of great thieves -- Duels and ordeals -- Relics.</dcterms:tableOfContents>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">730</pgterms:downloads>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N76c10e7b75064e1698cd3612c6a20d15">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.rdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N16ebc932751f40848b8c3e690d364441">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17624</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:18:59.283437</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N04135fa2116746599980b03824a020f4">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Impostors and imposture</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-12T02:46:17.644339</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3168775</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8efdc8fa295840269d092c4077bbfc8a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-02-05</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.plucker">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N8cae4d8ef0c549698b29da7e167f581d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-13T09:06:14.614627</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1006964</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N4698adea60fb43f2ba39b16d07ac9310">
-        <rdf:value>Common fallacies</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:tableOfContents>The Mississippi scheme -- The south-sea bubble -- The tulipomania -- The alchymists -- Modern prophecies -- Fortune-telling -- The magnetisers -- Influence of politics and religion on the hair and beard -- The crusades -- The witch mania -- The slow poisoners -- Haunted houses -- Popular follies of great cities -- Popular admiration of great thieves -- Duels and ordeals -- Relics.</dcterms:tableOfContents>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N7c65d5ebe44a48539d42e96b6a6a8530">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Occultism -- Early works to 1900</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N670b89deaf164546bafbfd579fc5b40e">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Alchemy</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3098082</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T23:27:45.669914</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne13d446561324265bd9c87b5bd855bda">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Na5ab0640ff674143bca8b7bb1810a8d0">
-        <rdf:value>Investments -- Psychological aspects</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N08d9b60b0481495e9d71699a2214ef85">
-        <rdf:value>Social psychology</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-0.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:15:16</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N005c022516024683a7aaf160c987ec37">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1684966</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-h/24518-h.htm">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-05T09:46:46</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N71ca3ba67ae249759fec9f54b2536492">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N58bbd1390b304366a4c95824e231757b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169979</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nf90b9801e0994f68a22ce9fbe3fee415">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Impostors and imposture</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1684611</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:00:04</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">635767</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf09dc57a47ea4c7b96a80b605342bec3">
+          <rdf:Description rdf:nodeID="N4227fb84b6894f6bb685940828ee7012">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-h/delusions.html">
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">147853</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-02-03T14:16:02</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N22654db5513c43d0997afe4fa810c58b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:26:22</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/516">
+        <pgterms:name>Mackay, Charles</pgterms:name>
         <pgterms:alias>Mackay, Chas. (Charles)</pgterms:alias>
         <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Charles_Mackay"/>
-        <pgterms:name>Mackay, Charles</pgterms:name>
         <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1814</pgterms:birthdate>
         <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1889</pgterms:deathdate>
       </pgterms:agent>
     </dcterms:creator>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne03bebba7fe940678c1a5029a640f2fa">
-        <rdf:value>Swindlers and swindling</rdf:value>
+      <rdf:Description rdf:nodeID="Nc7b8d7cfdc7045e5852819b4ab7cb673">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Social psychology</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N53358172c3b44d52a0c2fa4198c2cbb0">
+      <rdf:Description rdf:nodeID="Na1e0509e0f7f4529a394bb5e7ed6827b">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>AZ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N073757b987a94ff5bbe5910618716b36">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Delusions</rdf:value>
+        <rdf:value>Alchemy</rdf:value>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-h/dvi.html">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:24:48</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nca9731ef16014bb7ac674df6d5385517">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          <rdf:Description rdf:nodeID="N556c6f9ae95e4a45a5507bcfbbec7dcf">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">876005</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-8.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1684529</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-04-02T10:48:36</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N231b9b78251746e6a6e5e33b697b7969">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:07:32</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:title>Memoirs of Extraordinary Popular Delusions and the Madness of Crowds</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-h/dvii.html">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:25:28</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">863518</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbb4e08007887442b89ada3ee483b0439">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:26:22</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4a3eb55b076d4105a569f801d685935b">
+          <rdf:Description rdf:nodeID="Ne44710925dbf403f9ac77b3795c3c42a">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">635767</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7a8e3475bb6d44cb97465d9e833bceb8">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15508855</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-8.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:26:22</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">636271</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:26:22</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N872d466ad74a4121b0685944b7f9eb7c">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nab894f8785cf43adbfc3d03ff0587587">
+          <rdf:Description rdf:nodeID="N9b733d54e91f436f8b6e5d813083d8ec">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb4fbb09f3f024ce38ccdddb028d9b687">
+          <rdf:Description rdf:nodeID="N133ef7ab2b6140a1a7828e40e4381635">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T23:27:10.756979</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">698647</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.kindle.images">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne9e66e86d8354f3884e97dd58c6bd51b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T23:27:35.358518</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9828318</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N4eeb61c769c74a6797fc9408e13d5839">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N769f4cc63c724e1fb993db6c0fe885a6">
-        <rdf:value>Hallucinations and illusions</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/24518.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4372776</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3f1188a7087f43569d06a25830f70f5f">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T23:27:14.797748</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/24518/24518-h.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-03T12:26:24</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/24518"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15516332</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf84c0d15513245bdaa8c21a437508de2">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5b30f4759efb44a8854d498edee1b878">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">636271</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nb8cf0b77fe5a4915bc686050961a1160">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Psychology</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N803697667bc94a76b05b5eb3e51c9684">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Witchcraft</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Charles_Mackay">
     <dcterms:description>Wikipedia</dcterms:description>
